@@ -1,0 +1,2 @@
+<app-fundstransfer *ngIf="show_form" (event_submite_form)="submit_form($event)"></app-fundstransfer>
+<app-confirmation *ngIf="!show_form" [submitted_data]="submitted_data"></app-confirmation>

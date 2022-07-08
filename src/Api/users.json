@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Morgan",
+      "accountNo": "2842",
+      "email": "johnnywill90@gmail.com",
+      "balance": 2384
+    },
+    {
+      "id": 2,
+      "name": "Mark Lee",
+      "accountNo": "3412",
+      "email": "Leeboy812@gmail.com",
+      "balance": 7584
+    },
+    {
+      "id": 3,
+      "name": "Kevin Woche",
+      "accountNo": "9201",
+      "email": "WocheWoche001@gmail.com",
+      "balance": 6800
+    },
+    {
+      "id": 4,
+      "name": "David Spincer",
+      "accountNo": "5762",
+      "email": "Davidspins66@gmail.com",
+      "balance": 2012
+    },
+    {
+      "id": 5,
+      "name": "Martin Black",
+      "accountNo": "1928",
+      "email": "BlackMartin70@gmail.com",
+      "balance": 3777
+    },
+    {
+      "id": 6,
+      "name": "Jay Cutler",
+      "accountNo": "4009",
+      "email": "Cutlerbodybuilding1@gmail.com",
+      "balance": 2385
+    },
+    {
+      "id": 7,
+      "name": "Mark Goldman",
+      "accountNo": "7905",
+      "email": "Goldman0098@gmail.com",
+      "balance": 2865
+    },
+    {
+      "id": 8,
+      "name": "Joe Johnas",
+      "accountNo": "6011",
+      "email": "Joejohnas62@gmail.com",
+      "balance": 4084
+    },
+    {
+      "id": 9,
+      "name": "Zack Cook",
+      "accountNo": "5888",
+      "email": "ZackZack00@gmail.com",
+      "balance": 9082
+    },
+    {
+      "id": 10,
+      "name": "Frank Zain",
+      "accountNo": "2141",
+      "email": "Zafrank99@gmail.com",
+      "balance": 6775
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<div class="users-container">
+<ul *ngFor="let user of users">
+    <li><strong>Name :</strong> {{user.name }}</li>
+    <li><strong>Account.No</strong> : {{user.accountNo}}</li>
+    <li><strong>Email :</strong> {{user.email}}</li>
+    <li><strong>Balance :</strong> {{user.balance|currency}}</li>
+</ul>
+</div>

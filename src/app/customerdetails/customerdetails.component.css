@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+
+.users-container { 
+    display: grid;
+    grid-template-columns: auto 2fr   ;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto;
+    column-gap: 90px;
+   
+  
+}
+
+ul{
+    justify-self: center;
+    width: 400px;
+    list-style: none;
+    font-size: 17px;
+    color: #264653;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    border: 1.5px solid #264653;
+    padding: 20px 20px;
+    margin-top: 40px;
+    
+  
+}
+
+

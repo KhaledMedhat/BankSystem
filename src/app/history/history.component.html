@@ -1,0 +1,39 @@
+<div  class="container">
+
+    <h1>Transaction history</h1>
+
+    <div *ngFor="let history of history" class="container">
+    <table class="table" >
+        <tr class="fonts">
+          <th></th>
+          <th><strong>ACCOUNT NO.</strong></th>
+          <th><strong>NAME</strong></th>
+          <th><strong>E-MAIL</strong></th>
+          <th><strong>OLD BALANCE</strong></th>
+          <th><strong>NEW BALANCE</strong></th>
+          <th><strong>AMOUNT</strong></th>
+        </tr>
+        <tr >
+          <td class="sender"><strong>Sender</strong></td>
+          <td>{{history.senderAccountNo}}</td>
+          <td>{{history.senderName}} </td>
+          <td>{{history.senderEmail}}</td>
+          <td>{{history.updatedSender | currency}}</td>
+          <td>{{history.senderBalance | currency}}</td>
+          </tr>
+        
+          <tr>
+          <td class="receiver"><strong>Receiver</strong></td>
+          <td>{{history.receiverAccountNo}}</td>
+          <td>{{history.receiverName}}</td>
+          <td>{{history.receiverEmail}}</td>
+          <td>{{history.updatedReceiver | currency}}</td>
+          <td>{{history.receiverBalance | currency}}</td>
+          <td class="amount">{{history.amount | currency}}</td>
+        
+        </tr>
+     
+      </table>
+    </div>
+
+</div>

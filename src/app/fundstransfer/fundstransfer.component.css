@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+.form-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+h1{
+   color: #264653;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    background-color: #f7f7f7;
+    border-radius: 20px ;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    color:#264653 ;
+    width: 900px;
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 50px 40px;
+    gap: 10px;
+   
+    
+}
+
+
+input{ 
+    width: 300px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    cursor: pointer;
+    
+    
+   
+    
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: #264653;
+    
+  }
+
+
+  
+ 
+
+
+.button {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #264653;
+    cursor: pointer;
+    height: 35px;
+    width: 200px;
+    margin-top: 25px;
+}
+
+p{
+    color: red;
+    width: 300px;
+    font-size: 15px;
+  
+  
+    
+}
+
+
+input:focus {
+    outline: none ! important;
+    }
+
+
+
+  
+ 

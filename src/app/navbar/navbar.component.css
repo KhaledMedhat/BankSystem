@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+
+.container {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    margin: 0 auto;
+    background-color:#264653 ;
+    border-radius: 25px;
+    
+}
+
+
+
+a { 
+    
+    font-weight: bold;
+    text-decoration: none; 
+    color: #ffffff;
+   
+}
+
+
+
+.bank-img{ 
+    padding-bottom: 10px;
+}
+
+.name {
+  
+ 
+    position: relative;
+    right: 46px;
+    top: 8px;
+    line-height: 1.2;
+
+  
+    
+    
+
+} 
+

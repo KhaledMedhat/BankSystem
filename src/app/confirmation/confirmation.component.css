@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 122px;
+    gap: 60px;
+    overflow-x: auto;
+    color: #264653;
+}
+
+.table {
+    height: 155px;
+    width: 67%;
+    text-align: center;
+    color: #264653;
+}
+
+.sender{ 
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.receiver {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.fonts{
+    font-size: 12px;
+    
+}
+

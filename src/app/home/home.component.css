@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 70px;
+
+}
+
+h1{
+    font-weight: bold;
+    color: #264653;
+}
+
+img{
+    border-radius: 20px;
+}
+

@@ -1,0 +1,32 @@
+<div class="container" >
+    <h1>Transaction Successfully Completed</h1>
+    <h2>Details of transaction</h2>
+    
+    <table class="table">
+        <tr class="fonts">
+          <th></th>
+          <th><strong>ACCOUNT NO.</strong></th>
+          <th><strong>NAME</strong></th>
+          <th><strong>EMAIL</strong></th>
+          <th><strong>OLD BALANCE</strong></th>
+          <th><strong>NEW BALANCE</strong></th>
+        </tr>
+        <tr >
+          <td class="sender"><strong>Sender</strong></td>
+          <td>{{submitted_data.sender}}</td>
+          <td>{{submitted_data.senderName}}</td>
+          <td>{{submitted_data.senderEmail}}</td>
+          <td>{{submitted_data.senderBalance | currency}}</td>
+          <td>{{submitted_data.updatedSender|currency}}</td>
+        </tr>
+        <tr >
+          <td class="receiver"><strong>Receiver</strong></td>
+          <td>{{submitted_data.receiver}}</td>
+          <td>{{submitted_data.receiverName}}</td>
+          <td>{{submitted_data.receiverEmail}}</td>
+          <td>{{submitted_data.receiverBalance | currency}}</td>
+          <td>{{submitted_data.updatedReceiver|currency}}</td>
+        </tr>
+     
+      </table>
+</div>
