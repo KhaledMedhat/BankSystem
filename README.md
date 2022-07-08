@@ -1,6 +1,32 @@
 # BankSystem
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+Project features My application reflects the same user experience as that of a real-world e-commerce website, including a(n):
+
+All customers data that linked to the bank 
+
+A form to transfer money between users througth their Account numbers 
+
+An confirmation page displaying all the details about the transaction with the old balance and new balance updated 
+
+A history page displaying all the transaction that was done before with all the infromation and the amount that has been transfered 
+
+Dependencies:
+
+"@angular/animations": "~13.3.0",
+    "@angular/common": "~13.3.0",
+    "@angular/compiler": "~13.3.0",
+    "@angular/core": "~13.3.0",
+    "@angular/forms": "~13.3.0",
+    "@angular/localize": "~13.3.0",
+    "@angular/platform-browser": "~13.3.0",
+    "@angular/platform-browser-dynamic": "~13.3.0",
+    "@angular/router": "~13.3.0",
+    "@ng-bootstrap/ng-bootstrap": "^12.1.2",
+    "@popperjs/core": "^2.10.2",
+    "bootstrap": "^5.1.3",
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
 
 ## Get started
 
